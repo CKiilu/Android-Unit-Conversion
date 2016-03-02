@@ -8,12 +8,20 @@ import android.view.View;
 import android.widget.Button;
 
 public class Main extends AppCompatActivity {
-    Button button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
+        Button b = (Button) findViewById(R.id.button5);
+
+        b.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(Main.this, Nav.class);
+                startActivity(i);
+            }
+        });
     }
 }
