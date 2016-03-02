@@ -1,15 +1,17 @@
 package com.scurrae.chris.unitconversion;
 
-import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 
-/**
- * Created by chris on 3/1/16.
- */
-public class Nav extends Activity {
+public class Nav extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.nav);
+        Intent i = getIntent();
     }
+
 }
