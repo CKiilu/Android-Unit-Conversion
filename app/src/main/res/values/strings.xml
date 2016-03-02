@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Unit Conversion</string>
+    <string name="app_def">An app to serve all your unit conversion needs.</string>
+    <string name="sub_title">Convert Me</string>
+    <string name="begin">To begin.</string>
+    <string name="but1">click me</string>
+    <string name="rate">Rate Us</string>
+    <string name="tempbutton">Temperature</string>
+    <string name="distbutton">Distance</string>
+    <string name="choosecon">Conversion Type</string>
+    <string name="disttitle">Metres to and from Feet</string>
+    <string name="hintdist">Distance</string>
+    <string name="tometres">To Metres</string>
+    <string name="to_feet">To Feet</string>
+    <string name="dist_answer">Result</string>
+    <string name="temp_hint">Temperature</string>
+    <string name="to_celsius">To Celsius</string>
+    <string name="to_fahrenheit">To fahrenheit</string>
+    <string name="temp_ans">Result</string>
+    <string name="temp_title">Celsius to and from Fahrenheit</string>
+    <string name="or">Or</string>
+    <string name="suggest">Send suggestions</string>
+    <string name="rating">Rate us</string>
+    <string name="tuma">Send</string>
+    <string name="here">Here</string>
+    <string name="more_values">To suggest more values we can convert fill in the field below.</string>
+</resources>
