@@ -25,11 +25,44 @@
             android:name=".Nav"
             android:label="@string/title_activity_nav"
             android:parentActivityName=".Main"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.scurrae.chris.unitconversion.Main" />
         </activity>
+        <activity android:name=".Distance"
+            android:label="@string/dist"
+            android:parentActivityName=".Nav"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support,PARENT_ACTIVITY"
+                android:value="com.scurrae.chris.unitconversion.Nav"/>
+        </activity>
+        <activity android:name=".Temperature"
+            android:label="@string/temp"
+            android:parentActivityName=".Nav"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support,PARENT_ACTIVITY"
+                android:value="com.scurrae.chris.unitconversion.Nav"/>
+        </activity>
+        <activity android:name=".Suggestions"
+            android:label="@string/suggesttions"
+            android:parentActivityName=".Nav"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support,PARENT_ACTIVITY"
+                android:value="com.scurrae.chris.unitconversion.Nav"/>
+        </activity>
+        <activity android:name=".Rate"
+            android:label="@string/ratesa"
+            android:parentActivityName=".Nav"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support,PARENT_ACTIVITY"
+                android:value="com.scurrae.chris.unitconversion.Nav"/>
+        </activity>
+
     </application>
 
 </manifest>

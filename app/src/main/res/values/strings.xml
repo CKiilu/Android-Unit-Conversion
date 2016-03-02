@@ -26,4 +26,8 @@
     <string name="more_values">To suggest more values we can convert fill in the field below.</string>
     <string name="title_activity_nav">Nav</string>
     <string name="logo">logo</string>
+    <string name="dist">Distance</string>
+    <string name="temp">Temperature</string>
+    <string name="suggesttions">Suggestions</string>
+    <string name="ratesa">Rate</string>
 </resources>
